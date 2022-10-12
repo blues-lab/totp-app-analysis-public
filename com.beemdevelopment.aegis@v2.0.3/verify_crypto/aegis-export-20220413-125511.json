@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "header": {
+        "slots": [
+            {
+                "type": 1,
+                "uuid": "5d517814-c869-41c9-85f6-340bfa1d97bd",
+                "key": "cd11a9a4ea065f02b84a6c9ccd09a5fc5995aa55b8e5ea0bf28882f00a5fd340",
+                "key_params": {
+                    "nonce": "6e1ccad8853e5f247cff5093",
+                    "tag": "aeb8e5acc14d960b42831aceb71e4f8f"
+                },
+                "n": 32768,
+                "r": 8,
+                "p": 1,
+                "salt": "9088deca4ab4910ba49c6c21cae9f1e7a5249d24b265bb62d7ef30e152fd39ec",
+                "repaired": true
+            }
+        ],
+        "params": {
+            "nonce": "97a1beb7a2c7735312f50ea9",
+            "tag": "b7dbbc45d60853dd2d567334fcc7f8bc"
+        }
+    },
+    "db": "dZ9CkYoLrqbHma6Terq\/5LXRA2Fs4r1T22l2wxV3k9n9JNv3FMF7RmPvt03+o0whkOcvFBqoEJypts9lf\/LQxDgsibh8MwpLFYsAW7p8pi9SeAbK9TmIPXd\/1qlzJ3RVr9sZlgkx\/sW83uS4Rp6ESPQf7PcgjgI5RXm3ge6qpQFqFCGmwkifnHekywQCS7H+DVAvoQC6w13P0l\/H9zFzh5AxkN+g5lE7I2Ev1LzhbeP7NdDM2u3PAepa8mRcDgVK5qBWJowIz3EfW89rJgjFPGgKqCraXFHesWByMWzIdUqIxiNeCdzdo+YulWJtSIGwGP3TqOIbG4zNtJJTzbh8d0doP32GTgcDkTPhq2etc849oMga77Sd\/nGb\/H3jLuri1Dia7WvN1Lb8ZE66Kz+cLxxXxYQj2wa4BH3HRcKnvaaxdm9juAGCOekM5mrmhmOyFfbK560be73wH9wrTmHikXQAeheVmwQOurJU5aH+wakzx0zmEcmMU7quwJ1IiXApYb+8x3TmooOkabiJMCUK\/LARReFIQpLdrDgBzhiFx46o\/wV36pyXtXyn9q6xhko3cut1Flt0QlJputLn+kzmKdPvuLvne2BV2Q0iX5UWHc52VUZ+J+zOqvuaaq\/CWG745PfAFzYGAZA9h7zn"
+}
