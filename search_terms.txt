@@ -1,0 +1,40 @@
+The following comma separated list contains the 109 final search terms that we
+used to identify as many TOTP apps in the Google Play Store as possible. The 32
+core search terms are marked with an asterisk (*). See Section 4.1 "App
+Selection" in the paper for more details.
+
+2 factor*, 2 factor authentication*, 2 factor authentication app, 2 factor
+authentication app facebook, 2 factor authentication app free, 2 factor
+authentication discord, 2 step *, 2 step verification app, 2 step verification
+app walmart, 2 step verification bypass, 2 step verification sony, 2-factor*,
+2-factor authentication*, 2-factor authentication app, 2-factor authentication
+code, 2-step verification*, 2-step verification app, 2fa*, 2fa app, 2fa
+authenticator, 2fa authenticator app, 2fa fortnite, 2face, 2sv*, 2sv
+authenticator, 2sv authenticator app, 2sv authenticator app sony, 2sv2,
+authenticator*, authenticator app fortnite, authenticator app microsoft,
+authenticator blizzard, authenticator google, code generator*, code generator
+app, code generator facebook, code generator for facebook, code generator for
+facebook login, duo multi factor authentication, mfa*, mfa app, mfa
+authenticator, mfa boston, mfa mobile app, multi factor*, multi factor
+authentication*, multi factor authentication app, multi factor authenticator,
+multi factor authenticator app, multi-factor*, multi-factor authentication*,
+multi-factor authentication (mfa), multi-factor authentication app, multi-factor
+authentication application, multi-factor authentication mobile app,
+multifactor*, multifactor authentication*, multifactor authentication for office
+365, multifactor authentification, multifactorial authentication, one time
+password*, one time password (otp), one time password app lock, one time
+password authenticator, one time password ff14, one time password ffxiv, one
+time password square enix, one-time password*, otp*, otp app, otp authenticator,
+otp authenticator samsung, otpauth, setup multi factor authentication, tfa*, tfa
+app, tface, tfacebook, tfanslate, time based one time password*, time based
+one-time password*, time-based one time password*, time-based one-time
+password*, totp*, totp app, totp authenticator, totp authenticator app,
+totp-compliant authentication software, two factor*, two factor authentication*,
+two factor authentication app, two factor authentication app discord, two factor
+authentication app facebook, two factor authentication app fortnite, two step
+verification*, two step verification app, two step verification discord, two
+step verification facebook, two step verification walmart, two step verification
+whatsapp, two-factor*, two-factor authentication*, two-factor authentication
+(2fa), two-factor authentication app, two-factor authentication code, two-factor
+authenticator, two-factor authenticator app, two-step verification*, two-step
+verification token service
