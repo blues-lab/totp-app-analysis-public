@@ -112,10 +112,10 @@ $> go run verify_crypto.go
 ```
 
 To reproduce our findings, you will need to update the relevant constants in
-each script with the values present in your network traffic captures. Each
-script is well commented to indicate where the value can be found in the
-traffic. Additionally, we include the relevant network traffic snippets that we
-collected from our own network traffic captures during our research
-(`apps/<id@version>/logs/traffic-snippet.txt`). These may be useful to observe
-additional identifiers to help you find the correct requests/responses and field
-values in your traffic captures.
+each script with the values present in your network traffic captures and/or file
+exports. Each script is well commented to indicate where the value can be found
+in the traffic or file. Additionally, we include the relevant network traffic
+snippets that we collected from our own network traffic captures during our
+research (`apps/<id@version>/logs/traffic-snippet.md`). These may be useful to
+observe additional identifiers to help you find the correct requests/responses
+and field values in your traffic captures.
