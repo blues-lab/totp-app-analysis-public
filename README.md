@@ -1,7 +1,8 @@
 # Security and Privacy Failures in Popular 2FA Apps
-This repository contains the paper titled `Security and Privacy Failures in Popular 2FA Apps`, which has
-been accepted to [USENIX Security
-2023](https://www.usenix.org/conference/usenixsecurity23), and its supplemental materials and artifacts.
+This repository contains the paper titled `Security and Privacy Failures in
+Popular 2FA Apps`, which has been accepted to [USENIX Security
+2023](https://www.usenix.org/conference/usenixsecurity23/presentation/gilsenan),
+and its supplemental materials and artifacts.
 
 ## Abstract and Paper
 
@@ -23,7 +24,9 @@ flaws, and/or allowed the app developers to access the TOTP secrets in
 plaintext. We present our findings and recommend ways to improve the security
 and privacy of TOTP 2FA app backup mechanisms.
 
-The full paper is available [here](/Gilsenan%20et%20al%20-%20Security%20and%20Privacy%20Failures%20in%20Popular%202FA%20Apps.pdf).
+The repo contains the [full paper
+here](/Gilsenan%20et%20al%20-%20Security%20and%20Privacy%20Failures%20in%20Popular%202FA%20Apps.pdf)
+and the [bibtex here](/bibtex.txt).
 
 ## USENIX'23 Artifact Appendix
 
