@@ -10,19 +10,19 @@ The Time-based One-Time Password (TOTP) algorithm is a 2FA method that is widely
 deployed because of its relatively low implementation costs and purported
 security benefits over SMS 2FA. However, users of TOTP 2FA apps face a critical
 usability challenge: maintain access to the secrets stored within the TOTP app,
-or risk getting locked out of their ac- counts. To help users avoid this fate,
+or risk getting locked out of their accounts. To help users avoid this fate,
 popular TOTP apps implement a wide range of backup mechanisms, each with varying
 security and privacy implications. In this paper, we define an assessment
 methodology for conducting systematic security and privacy analyses of the
 backup and recovery functionality of TOTP apps. We identified all general
 purpose Android TOTP apps in the Google Play Store with at least 100k installs
 that implemented a backup mechanism (n = 22). Our findings show that most backup
-strategies end up placing trust in the same technologies that TOTP 2FA is
-meant to supersede: passwords, SMS, and email. Many backup implementations
-shared personal user information with third parties, had serious cryptographic
-flaws, and/or allowed the app developers to access the TOTP secrets in
-plaintext. We present our findings and recommend ways to improve the security
-and privacy of TOTP 2FA app backup mechanisms.
+strategies end up placing trust in the same technologies that TOTP 2FA is meant
+to supersede: passwords, SMS, and email. Many backup implementations shared
+personal user information with third parties, had serious cryptographic flaws,
+and/or allowed the app developers to access the TOTP secrets in plaintext. We
+present our findings and recommend ways to improve the security and privacy of
+TOTP 2FA app backup mechanisms.
 
 The repo contains the [full paper
 here](/Gilsenan%20et%20al%20-%20Security%20and%20Privacy%20Failures%20in%20Popular%202FA%20Apps.pdf)
