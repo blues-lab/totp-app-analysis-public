@@ -1,3 +1,4 @@
+<!-- omit in toc -->
 # Using open source tools to capture plaintext network traffic
 
 These instructions explain how to use open source tools to capture the plaintext
@@ -25,6 +26,12 @@ The tools include:
 The directions in each sub-section below explain how to set up a Pixel Android
 phone to proxy HTTP(S) traffic through a running mitmproxy instance on a laptop
 connected via the Android Debud Bridge (adb).
+
+- [Step 1) Install dependencies on laptop](#step-1-install-dependencies-on-laptop)
+  - [Android Debug Bridge (adb)](#android-debug-bridge-adb)
+  - [mitmproxy](#mitmproxy)
+- [Step 2) Configure Pixel phone for flashing new ROMs](#step-2-configure-pixel-phone-for-flashing-new-roms)
+- [Step 3) Root the Pixel phone with Magisk](#step-3-root-the-pixel-phone-with-magisk)
 
 ## Step 1) Install dependencies on laptop
 
