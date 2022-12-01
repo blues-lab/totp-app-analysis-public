@@ -58,10 +58,15 @@ The artifacts available include:
 The ordered steps below should be followed individually for each app to verify
 and reproduce the paper's findings.
 
-1. [Step 1 - Setup to capture network traffic](#step-1---setup-to-capture-network-traffic)
-2. [Step 2 - Capture and review network traffic for each app (Section 4.2.2)](#step-2---capture-and-review-network-traffic-for-each-app-section-422)
-3. [Step 3 - Review cryptanalysis for each app that supports encryption (Section 4.2.3)](#step-3---review-cryptanalysis-for-each-app-that-supports-encryption-section-423)
-4. [Step 4 - Review Android Auto Backup (AAB) usage for each app (Section 5.4)](#step-4---review-android-auto-backup-aab-usage-for-each-app-section-54)
+- [Security and Privacy Failures in Popular 2FA Apps](#security-and-privacy-failures-in-popular-2fa-apps)
+- [Abstract and Paper](#abstract-and-paper)
+- [Artifact Appendix - Verify and Reproduce Findings](#artifact-appendix---verify-and-reproduce-findings)
+  - [Step 1 - Setup to capture network traffic](#step-1---setup-to-capture-network-traffic)
+  - [Step 2 - Capture and review network traffic for each app (Section 4.2.2)](#step-2---capture-and-review-network-traffic-for-each-app-section-422)
+  - [Step 3 - Review cryptanalysis for each app that supports encryption (Section 4.2.3)](#step-3---review-cryptanalysis-for-each-app-that-supports-encryption-section-423)
+    - [Step 3a - Verify cryptanalysis](#step-3a---verify-cryptanalysis)
+    - [Step 3b - Reproduce cryptanalysis](#step-3b---reproduce-cryptanalysis)
+  - [Step 4 - Review Android Auto Backup (AAB) usage for each app (Section 5.4)](#step-4---review-android-auto-backup-aab-usage-for-each-app-section-54)
 
 ## Step 1 - Setup to capture network traffic
 
@@ -76,17 +81,16 @@ since methods of roooting a phone vary among difference devices.
 
 ## Step 2 - Capture and review network traffic for each app (Section 4.2.2)
 
-This step allows you to verify and reproduce:
-
-- **Table 1**
-  - Backup Mechanisms (except for Android Backup)
-- **Table 2**:
-  - PII to use cloud backups
-  - Backup Location
-  - TOTP Data Leaked
-  - Obtain Backup With...
-- **Table 3**
-  - Password Min Len
+> This step allows you to verify and reproduce:
+> - **Table 1**
+>   - Backup Mechanisms (except for Android Backup)
+> - **Table 2**:
+>   - PII to use cloud backups
+>   - Backup Location
+>   - TOTP Data Leaked
+>   - Obtain Backup With...
+> - **Table 3**
+>   - Password Min Len
 
 For each app, record the network traffic while executing the steps enumerated in
 the app checklist (`apps/<id@version>/logs/checklist.md`).
@@ -99,16 +103,15 @@ the steps in the checklist for each app.
 
 ## Step 3 - Review cryptanalysis for each app that supports encryption (Section 4.2.3)
 
-This step allows you to verify and reproduce:
+> This step allows you to verify and reproduce:
+> - **Table 3**
+>   - Key Source
+>   - KDF and Configuration
+>   - KDF Salt
+>   - Encryption Algorithm
+>   - Ciphertext Integrity
+>   - Decryption Heuristic
 
-- **Table 3**
-  - Key Source
-  - KDF and Configuration
-  - KDF Salt
-  - Encryption Algorithm
-  - Ciphertext Integrity
-  - Decryption Heuristic
-  - 
 For each app that supported encryption, we implemented the decryption process in
 a separate script to verify our observations. Each script has a section near the
 top that defines constant variables, including:
@@ -156,10 +159,9 @@ app is out of the scope of these instructions.
 
 ## Step 4 - Review Android Auto Backup (AAB) usage for each app (Section 5.4)
 
-This step allows you to verify and reproduce:
-
-- **Table 1**
-  - Android Backup
+> This step allows you to verify and reproduce:
+> - **Table 1**
+>   - Android Backup
 
 Android apps are opted into [Android Auto Backup
 (AAB)](https://developer.android.com/guide/topics/data/autobackup) by default,
