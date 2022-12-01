@@ -4,6 +4,7 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
+	"strings"
 
 	jose "gopkg.in/square/go-jose.v2"
 )
@@ -32,6 +33,16 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+
+	parts := strings.Split(data.EncryptedBackup, ".")
+	algBase64 := parts[0]
+
+	alg, err := base64.RawStdEncoding.DecodeString(algBase64)
+	if err != nil {
+		panic(err)
+	}
+	fmt.Println("JWE algorithms = " + string(alg))
+	fmt.Print("The algorithm constants can be verified in the documentation: https://pkg.go.dev/gopkg.in/square/go-jose.v2 \n\n")
 
 	jwe, err := jose.ParseEncrypted(data.EncryptedBackup)
 	if err != nil {
